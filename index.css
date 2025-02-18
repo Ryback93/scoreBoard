@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    src: url('fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+html {
+    height: 100%; 
+    background-color: #222; 
+}
+
+body {
+    margin: 0; 
+    height: 100%; 
+    background-color: #222; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+    background-color: #328;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+button {
+    border: 2px solid #33ccff;
+    border-radius: 5px;
+    background-color: #222;
+    color: yellow;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #33ccff;
+    color: black;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+h3 {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+h4 {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.team{
+    text-align: center;
+    width: 155;
+    height: 120;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px;
+}
+
+.timer-section {
+    margin-top: 10px;
+    align-items: center;
+}
+
+#timer-display {
+    text-align: center;
+    font-family: 'CursedTimerUlil-Aznm', sans-serif;
+    color: yellow;
+    font-size: 40px;
+    background-color: #000000;
+    border: 2px solid #33ccff;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+#score-home, #score-away {
+    font-family: 'CursedTimerUlil-Aznm', sans-serif;
+    color: yellow;
+    font-size: 40px;
+    background-color: #000000;
+    border: 2px solid #33ccff;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+.quarter-section {
+    margin-top: 15px;
+}
+
+#number-of-quarters {
+    font-family: 'CursedTimerUlil-Aznm', sans-serif;
+    color: yellow;
+    border: 2px solid #33ccff;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: #000000;
+    padding: 8px;
+    text-align: center;
+    width: 40px;
+    margin: auto;
+}
